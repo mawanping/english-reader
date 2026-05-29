@@ -148,7 +148,7 @@ async function apiCall(endpoint, body) {
       // Usage exhausted
       state.usage = { remaining: 0, limit: data.limit || 3, unlimited: false };
       updateUsageUI();
-      showError(`免费次数已用完（共${data.limit}次）。如需继续使用，请联系 <b>${data.contact || "1834109164@qq.com"}</b> 获取解锁码。`);
+      showError(`免费次数已用完（共${data.limit}次）。如需继续使用，请联系 <b>QQ邮箱: 1834109164@qq.com</b> 或 <b>微信: mwp565</b> 获取解锁码。`);
     }
     throw new Error(data.error || "请求失败");
   }
