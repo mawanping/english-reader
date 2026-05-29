@@ -1,0 +1,8 @@
+{
+  "name": "english-reader",
+  "version": "2.0.0",
+  "description": "AI English article reader with usage limits",
+  "dependencies": {
+    "@vercel/node": "^3.2.0"
+  }
+}
